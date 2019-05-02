@@ -31,7 +31,7 @@ sess = tf.Session()
 init = tf.initialize_all_variables()
 # Nothing happen in tensorflow until sess.run()
 sess.run(init)
-steps = 10000
+steps = 1000
 
 
 for i in range(steps):
